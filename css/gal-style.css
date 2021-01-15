@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.gal-item {
+  width: calc(100% - 510px - 397px - 10px);
+  height: 340px;
+}
+.item {
+  width: calc(100% - 480px - 510px - 18px);
+  height: 340px;
+}

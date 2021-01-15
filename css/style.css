@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  position: relative;
+}
+section {
+  background: url(https://cdn.pixabay.com/photo/2020/07/19/14/15/sky-5420151_960_720.jpg)
+    no-repeat center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+section::before {
+  content: "";
+  background: #00000073;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+h3 {
+  font-size: 40px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  right: 40%;
+  margin: auto;
+}
+a {
+  font-weight: 900;
+  font-size: 40px;
+  position: absolute;
+  top: 61%;
+  right: 51%;
+  color: white;
+}
+a:hover {
+  font-size: 55px;
+  color: rgba(0, 0, 0, 0.87);
+}
+.link {
+  font-weight: 900;
+  font-size: 40px;
+  position: absolute;
+  top: 61%;
+  right: 54%;
+  color: white;
+}
+span {
+  display: none;
+}
+span:hover {
+  visibility: visible;
+}

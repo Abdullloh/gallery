@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+
+div {
+  margin: 3px 0;
+  height: 340px;
+}
+.last {
+  width: calc(100% - 510px - 255px - 226px - 15px);
+  height: 100%;
+}
+#gal-item {
+  width: calc(100% - 510px - 510px - 10px);
+  height: 100%;
+}
+div > img {
+  object-fit: cover;
+}
